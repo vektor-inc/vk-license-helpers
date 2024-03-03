@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"phpunit": "composer install && wp-env run phpunit 'phpunit -c /var/www/html/wp-content/plugins/vk-license-helpers/phpunit.xml.dist --verbose'"
+	}
+}
