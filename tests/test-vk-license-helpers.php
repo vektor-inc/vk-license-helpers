@@ -112,6 +112,24 @@ class VK_License_Helper_Test extends WP_UnitTestCase {
 				),
 				'expect'         => 'vk-blocks-key',
 			),
+			array(
+				'test_name'      => 'vk-ab-testing 未登録 _ 他の製品も未登録',
+				'target_product' => 'vk-ab-testing',
+				'options'        => array(
+					'lightning-g3-pro-unit-license-key' => '',
+					'vk_blocks_options'                 => array(
+						'vk_blocks_pro_license_key' => '',
+					),
+
+				),
+				'expect'         => '',
+			),
+			array(
+				'test_name'      => 'vk-ab-testing 未登録 _ 他の製品も未登録',
+				'target_product' => 'vk-ab-testing',
+				'options'        => array(),
+				'expect'         => '',
+			),
 
 		);
 
