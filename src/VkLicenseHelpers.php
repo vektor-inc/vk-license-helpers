@@ -8,9 +8,24 @@
  * @version 0.0.0
  */
 
- namespace VektorInc\VK_License_Helpers;
+namespace VektorInc\VK_License_Helpers;
 
 class VkLicenseHelpers {
+
+	// コンストラクタ
+	public function __construct() {
+		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'add_custom_admin_style' ) );
+	}
+
+	/**
+	 * 管理画面スタイルの追加
+	 */
+	public static function add_custom_admin_style() {
+		// notice用のスタイル
+		$custom_css = '.nowrap { white-space: nowrap; }';
+		// 'wp-admin' スタイルシートにインラインスタイルを追加
+		wp_add_inline_style( 'wp-admin', $custom_css );
+	}
 
 	/**
 	 * ベクトル製品のライセンスキーを取得して配列を作成
@@ -105,5 +120,63 @@ class VkLicenseHelpers {
 		}
 
 		return $return;
+	}
+
+	/**
+	 * 管理画面アラートメッセージの生成
+	 * ※ 外側は将来的に wp_admin_notice() 関数などに変更するかもしれないので、中身のみを関数化
+	 * https://www.vektor-inc.co.jp/post/wordpress-6-4-wp_admin_notice/
+	 *
+	 * @param string $args : ライセンス情報
+	 * @return string $notice : 生成されたアラートメッセージ
+	 */
+	public static function get_license_notice_body( $args = array() ) {
+
+		$args_default = array(
+			'product_name'    => '',
+			'status'          => '',
+			'register_url'    => '',
+			'purchase_url'    => '',
+			'additional_html' => '',
+		);
+
+		$args = wp_parse_args( $args, $args_default );
+
+		$notice = '';
+
+		if ( 'unregistered' === $args['status'] || 'expired' === $args['status'] ) {
+
+			$notice .= '<h4>' . $args['product_name'] . '</h4>';
+			$notice .= '<>';
+			if ( 'expired' === $args['status'] ) {
+				// 期限が切れている場合.
+				$notice .= __( 'Your license key is expired.', 'vk-license-helpers' );
+			}
+			if ( 'unregistered' === $args['status'] ) {
+				// ライセンスキーが未入力の場合.
+				$notice .= __( 'License Key has no registered.', 'vk-license-helpers' );
+			}
+			$notice .= ' ';
+			$notice .= __( 'Please register a valid license key.', 'vk-license-helpers' );
+			$notice .= '</p>';
+
+			if ( ! empty( $args['additional_html'] ) ) {
+				$notice .= $args['additional_html'];
+			}
+
+			$notice .= '<a href="' . esc_url( $args['register_url'] ) . '" class="button button-primary">' . __( 'Register license key', 'vk-license-helpers' ) . '</a>';
+			if ( ! empty( $args['purchase_url'] ) ) {
+				$notice .= ' <a href="' . esc_url( $args['purchase_url'] ) . '" class="button button-secondary">' . __( 'Purchase a license', 'vk-license-helpers' ) . '</a>';
+			}
+			$notice .= '</p>';
+
+			/* translators: %s: 再読み込みURL */
+			$notice .= __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
+			$notice .= '<span class="nowrap">[ <a href="' . admin_url( '/' ) . 'update-core.php?force-check=1' . '">' . __( 'Re-acquisition of updates', 'vk-license-helpers' ) . '</a> ]</span>';
+			$notice .= '</p>';
+
+		}
+
+		return $notice;
 	}
 }

@@ -12,5 +12,8 @@ npm run phpunit
 
 == Changelog ==
 
+* 0.1.0
+  add license notice
+
 * 0.0.0
   initial release
