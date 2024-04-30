@@ -15,6 +15,8 @@ class VkLicenseHelpers {
 	// コンストラクタ
 	public function __construct() {
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'add_custom_admin_style' ) );
+		$locale = ( is_admin() && function_exists( 'get_user_locale' ) ) ? get_user_locale() : get_locale();
+		load_textdomain( 'vk-license-helpers', dirname( __FILE__ ) . '/languages/' . 'vk-license-helpers-' . $locale . '.mo' );
 	}
 
 	/**
