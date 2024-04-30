@@ -123,14 +123,12 @@ class VkLicenseHelpers {
 	}
 
 	/**
-	 * 管理画面アラートメッセージの生成
-	 * ※ 外側は将来的に wp_admin_notice() 関数などに変更するかもしれないので、中身のみを関数化
-	 * https://www.vektor-inc.co.jp/post/wordpress-6-4-wp_admin_notice/
+	 * 管理画面アラートメッセージの表示
 	 *
 	 * @param string $args : ライセンス情報
 	 * @return string $notice : 生成されたアラートメッセージ
 	 */
-	public static function get_license_notice_body( $args = array() ) {
+	public static function display_license_notice( $args = array() ) {
 
 		$args_default = array(
 			'product_name'    => '',
@@ -177,6 +175,10 @@ class VkLicenseHelpers {
 
 		}
 
-		return $notice;
+		if ( $notice ) {
+			echo '<div class="error">';
+			echo wp_kses_post( $notice );
+			echo '</div>';
+		}
 	}
 }
