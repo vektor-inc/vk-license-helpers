@@ -24,7 +24,26 @@ class VkLicenseHelpers {
 	 */
 	public static function add_custom_admin_style() {
 		// notice用のスタイル
-		$custom_css = '.nowrap { white-space: nowrap; }';
+		$custom_css = '.vk_notice.error {
+			padding-top:1.2em;
+			padding-bottom:1.2em;
+		}
+		.vk_notice__title {
+			margin-top:0;
+			margin-bottom:0;
+			font-size:16px;
+		}
+		.vk_notice .button {
+			min-width:180px;
+			text-align:center;
+		}
+		.wp-core-ui .vk_notice .button {
+			margin-right:10px;
+		}
+		.vk_notice p:last-child {
+			margin-bottom:0;
+		}
+		.nowrap { white-space: nowrap; }';
 		// 'wp-admin' スタイルシートにインラインスタイルを追加
 		wp_add_inline_style( 'wp-admin', $custom_css );
 	}
@@ -146,7 +165,8 @@ class VkLicenseHelpers {
 
 		if ( 'unregistered' === $args['status'] || 'expired' === $args['status'] ) {
 
-			$notice .= '<h4>' . $args['product_name'] . '</h4>';
+			$notice .= '<h4 class="vk_notice__title">' . $args['product_name'] . '</h4>';
+			$notice .= '<div class="vk_notice__body">';
 			$notice .= '<p>';
 			if ( 'expired' === $args['status'] ) {
 				// 期限が切れている場合.
@@ -167,7 +187,7 @@ class VkLicenseHelpers {
 			$notice .= '<p>';
 			$notice .= '<a href="' . esc_url( $args['register_url'] ) . '" class="button button-primary">' . __( 'Register license key', 'vk-license-helpers' ) . '</a>';
 			if ( ! empty( $args['purchase_url'] ) ) {
-				$notice .= ' <a href="' . esc_url( $args['purchase_url'] ) . '" class="button button-secondary">' . __( 'Purchase a license', 'vk-license-helpers' ) . '</a>';
+				$notice .= '<a href="' . esc_url( $args['purchase_url'] ) . '" class="button button-secondary">' . __( 'Purchase a license', 'vk-license-helpers' ) . '</a>';
 			}
 			$notice .= '</p>';
 
@@ -175,11 +195,11 @@ class VkLicenseHelpers {
 			$notice .= '<p>' . __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
 			$notice .= '<span class="nowrap">[ <a href="' . admin_url( '/' ) . 'update-core.php?force-check=1' . '">' . __( 'Re-acquisition of updates', 'vk-license-helpers' ) . '</a> ]</span>';
 			$notice .= '</p>';
-
+			$notice .= '</div>';
 		}
 
 		if ( $notice ) {
-			echo '<div class="error">';
+			echo '<div class="error vk_notice">';
 			echo wp_kses_post( $notice );
 			echo '</div>';
 		}
