@@ -147,16 +147,25 @@ class VkLicenseHelpers {
 	 * 管理画面アラートメッセージの表示
 	 *
 	 * @param string $args : ライセンス情報
+	 * - product_name : 製品名
+	 * - product_slug : 製品スラッグ
+	 * - status : ライセンスステータス
+	 * - register_url : ライセンス登録URL
+	 * - purchase_url : 製品購入URL
+	 * - additional_html : 追加のHTML
+	 * - display_reacquisition : 更新再取得の表示
 	 * @return string $notice : 生成されたアラートメッセージ
 	 */
 	public static function display_license_notice( $args = array() ) {
 
 		$args_default = array(
-			'product_name'    => '',
-			'status'          => '',
-			'register_url'    => '',
-			'purchase_url'    => '',
-			'additional_html' => '',
+			'product_name'          => '',
+			'product_slug'          => '',
+			'status'                => '',
+			'register_url'          => '',
+			'purchase_url'          => '',
+			'additional_html'       => '',
+			'display_reacquisition' => true,
 		);
 
 		$args = wp_parse_args( $args, $args_default );
@@ -166,7 +175,6 @@ class VkLicenseHelpers {
 		if ( 'unregistered' === $args['status'] || 'expired' === $args['status'] ) {
 
 			$notice .= '<h4 class="vk_notice__title">' . $args['product_name'] . '</h4>';
-			$notice .= '<div class="vk_notice__body">';
 			$notice .= '<p>';
 			if ( 'expired' === $args['status'] ) {
 				// 期限が切れている場合.
@@ -185,17 +193,28 @@ class VkLicenseHelpers {
 			}
 
 			$notice .= '<p>';
+
+			// ライセンス登録ページへのリンクボタン
 			$notice .= '<a href="' . esc_url( $args['register_url'] ) . '" class="button button-primary">' . __( 'Register license key', 'vk-license-helpers' ) . '</a>';
+
+			// 購入ページへのリンクボタン
 			if ( ! empty( $args['purchase_url'] ) ) {
-				$notice .= '<a href="' . esc_url( $args['purchase_url'] ) . '" class="button button-secondary">' . __( 'Purchase a license', 'vk-license-helpers' ) . '</a>';
+				$purchase_url = $args['purchase_url'] . '?ref=license-notice';
+				// product_slug がある場合は、リンクに追加
+				if ( ! empty( $args['product_slug'] ) ) {
+					$purchase_url .= '&product=' . $args['product_slug'];
+				}
+				$notice .= '<a href="' . $purchase_url . '" class="button button-secondary" target="_blank">' . __( 'Purchase a license', 'vk-license-helpers' ) . '</a>';
 			}
+
 			$notice .= '</p>';
 
-			/* translators: %s: 再読み込みURL */
-			$notice .= '<p>' . __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
-			$notice .= '<span class="nowrap">[ <a href="' . admin_url( '/' ) . 'update-core.php?force-check=1' . '">' . __( 'Re-acquisition of updates', 'vk-license-helpers' ) . '</a> ]</span>';
-			$notice .= '</p>';
-			$notice .= '</div>';
+			// 更新の再取得を表示するかどうか
+			if ( $args['display_reacquisition'] ) {
+				$notice .= '<p>' . __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
+				$notice .= '<span class="nowrap">[ <a href="' . admin_url( '/' ) . 'update-core.php?force-check=1' . '">' . __( 'Re-acquisition of updates', 'vk-license-helpers' ) . '</a> ]</span>';
+				$notice .= '</p>';
+			}
 		}
 
 		if ( $notice ) {
