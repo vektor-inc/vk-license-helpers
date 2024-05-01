@@ -147,7 +147,7 @@ class VkLicenseHelpers {
 		if ( 'unregistered' === $args['status'] || 'expired' === $args['status'] ) {
 
 			$notice .= '<h4>' . $args['product_name'] . '</h4>';
-			$notice .= '<>';
+			$notice .= '<p>';
 			if ( 'expired' === $args['status'] ) {
 				// 期限が切れている場合.
 				$notice .= __( 'Your license key is expired.', 'vk-license-helpers' );
@@ -164,6 +164,7 @@ class VkLicenseHelpers {
 				$notice .= $args['additional_html'];
 			}
 
+			$notice .= '<p>';
 			$notice .= '<a href="' . esc_url( $args['register_url'] ) . '" class="button button-primary">' . __( 'Register license key', 'vk-license-helpers' ) . '</a>';
 			if ( ! empty( $args['purchase_url'] ) ) {
 				$notice .= ' <a href="' . esc_url( $args['purchase_url'] ) . '" class="button button-secondary">' . __( 'Purchase a license', 'vk-license-helpers' ) . '</a>';
@@ -171,7 +172,7 @@ class VkLicenseHelpers {
 			$notice .= '</p>';
 
 			/* translators: %s: 再読み込みURL */
-			$notice .= __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
+			$notice .= '<p>' . __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
 			$notice .= '<span class="nowrap">[ <a href="' . admin_url( '/' ) . 'update-core.php?force-check=1' . '">' . __( 'Re-acquisition of updates', 'vk-license-helpers' ) . '</a> ]</span>';
 			$notice .= '</p>';
 
