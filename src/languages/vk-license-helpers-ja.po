@@ -1,0 +1,1763 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VK License Helpers\n"
+"POT-Creation-Date: 2024-05-01 03:53+0900\n"
+"PO-Revision-Date: 2024-05-01 03:53+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: VkLicenseHelpers.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: tests\n"
+
+#: VkLicenseHelpers.php:156
+msgid "Your license key is expired."
+msgstr "ライセンスキーの有効期限が切れています。"
+
+#: VkLicenseHelpers.php:160
+msgid "License Key has no registered."
+msgstr "ライセンスキーが登録されていません。"
+
+#: VkLicenseHelpers.php:163
+msgid "Please register a valid license key."
+msgstr "有効なライセンスキーを登録してください。"
+
+#: VkLicenseHelpers.php:170
+msgid "Register license key"
+msgstr "ライセンスキーを登録"
+
+#: VkLicenseHelpers.php:172
+msgid "Purchase a license"
+msgstr "ライセンスを購入"
+
+#. translators: %s: 再読み込みURL
+#: VkLicenseHelpers.php:177
+msgid ""
+"If this display does not disappear even after entering a valid license key, "
+"re-acquire the update."
+msgstr ""
+"有効なライセンスキーを入力してもこの表示が消えない場合は更新の再取得をしてく"
+"ださい。"
+
+#: VkLicenseHelpers.php:178
+msgid "Re-acquisition of updates"
+msgstr "更新の再取得"
+
+#~ msgid "License key："
+#~ msgstr "ライセンスキー："
+
+#~ msgid ""
+#~ "Once you enter the license key you will be able to do a one click update "
+#~ "from the administration screen."
+#~ msgstr ""
+#~ "ライセンスキーを入力すると、管理画面からワンクリックで更新できるようになり"
+#~ "ます。"
+
+#~ msgid "OFF / ON"
+#~ msgstr "OFF / ON"
+
+#~ msgid "Function"
+#~ msgstr "関数"
+
+#~ msgid "Description"
+#~ msgstr "詳細"
+
+#~ msgid "OFF"
+#~ msgstr "OFF"
+
+#~ msgid "ON"
+#~ msgstr "ON"
+
+#~ msgid "Lightning G3 <br>Pro Unit Setting"
+#~ msgstr "Lightning G3 Pro Unit 設定"
+
+#~ msgctxt "label in admin menu"
+#~ msgid "Lightning G3 <br>Pro Unit Setting"
+#~ msgstr "Lightning G3 <br> Pro Unit 設定"
+
+#~ msgid "Lightning G3 <br>Pro Unit"
+#~ msgstr "Lightning G3 Pro Unit"
+
+#~ msgid "Section Base Setting"
+#~ msgstr "セクションベース設定"
+
+#~ msgid ""
+#~ "This setting was can set specific setting from the each page. If this "
+#~ "setting was not reflect that please check edit screen of now displaying "
+#~ "post."
+#~ msgstr ""
+#~ "この設定は、各ページから特定の設定を行うことができます。この設定が反映され"
+#~ "ていない場合は、現在表示中の投稿の編集画面をご確認ください。"
+
+#~ msgid "No section base"
+#~ msgstr "セクションベース無し"
+
+#~ msgid "Use section base"
+#~ msgstr "セクションベースあり"
+
+#~ msgid "Section base setting"
+#~ msgstr "セクションベース設定"
+
+#~ msgid "Common setting"
+#~ msgstr "共通設定"
+
+#~ msgid "パンくずリスト設定"
+#~ msgstr "パンくずリスト設定"
+
+#~ msgid "パンくずリストの位置"
+#~ msgstr "パンくずリストの位置"
+
+#~ msgid "ヘッダーの下"
+#~ msgstr "ヘッダーの下"
+
+#~ msgid "ページヘッダーの下（標準）"
+#~ msgstr "ページヘッダーの下（標準）"
+
+#~ msgid "フッター上部ウィジェットエリアの上"
+#~ msgstr "フッター上部ウィジェットエリアの上"
+
+#~ msgid "フッターの上"
+#~ msgstr "フッターの上"
+
+#~ msgid "Container Setting"
+#~ msgstr "コンテナ設定"
+
+#~ msgid "アクションフックのプライオリティ"
+#~ msgstr "アクションフックのプライオリティ"
+
+#~ msgid "よくわからない場合は空欄でかまいません。"
+#~ msgstr "よくわからない場合は空欄でかまいません。"
+
+#~ msgid "Copyright Setting"
+#~ msgstr "コピーライト設定"
+
+#~ msgid "Please fill box to footer html text you want."
+#~ msgstr "代わりに表示したいフッターテキストを入力してください（HTML有効）"
+
+#~ msgid "If you fill noting, Footer will display noting."
+#~ msgstr "何も入力しない場合は何も表示されません。"
+
+#~ msgid "Select image"
+#~ msgstr "画像を選択"
+
+#~ msgid "Required"
+#~ msgstr "必須"
+
+#~ msgid "Choose Image"
+#~ msgstr "画像を選択"
+
+#~ msgid "Delete Image"
+#~ msgstr "画像を削除"
+
+#~ msgid "Select file"
+#~ msgstr "ファイルを選択"
+
+#~ msgid "View file"
+#~ msgstr "ファイルを見る"
+
+#~ msgid "STD Business 01"
+#~ msgstr "標準 ビジネス 01"
+
+#~ msgid "STD Business 02"
+#~ msgstr "標準 ビジネス 02"
+
+#~ msgid "STD Blog 01"
+#~ msgstr "標準 ブログ 01"
+
+#~ msgid "標準 白 / キーカラー / 灰"
+#~ msgstr "標準 白 / キーカラー / 灰"
+
+#~ msgid "標準 白 / キーカラー / 黒"
+#~ msgstr "標準 白 / キーカラー / 黒"
+
+#~ msgid "標準 ヘッダー白透過 / キーカラー / 灰"
+#~ msgstr "標準 ヘッダー白透過 / キーカラー / 灰"
+
+#~ msgid "Design Preset"
+#~ msgstr "デザインプリセット"
+
+#~ msgid ""
+#~ "プリセットの変更を反映させる場合は一度保存してページを再読み込みしてくださ"
+#~ "い"
+#~ msgstr ""
+#~ "プリセットの変更を反映させる場合は一度保存してページを再読み込みしてくださ"
+#~ "い"
+
+#~ msgid ""
+#~ "カスタマイズ画面では選択したプリセットで指定された値（キーカラーなど）が優"
+#~ "先して反映されるので、個別に指定しても反映されません。一旦保存して画面を再"
+#~ "読み込みすると、プリセットで指定された値が各項目に保存されるので、プリセッ"
+#~ "トのデザインを反映させた上で個別に変更可能になります。"
+#~ msgstr ""
+#~ "カスタマイズ画面では選択したプリセットで指定された値（キーカラーなど）が優"
+#~ "先して反映されるので、個別に指定しても反映されません。一旦保存して画面を再"
+#~ "読み込みすると、プリセットで指定された値が各項目に保存されるので、プリセッ"
+#~ "トのデザインを反映させた上で個別に変更可能になります。"
+
+#~ msgid "No select"
+#~ msgstr "未選択"
+
+#~ msgid "Base Preset"
+#~ msgstr "基本プリセット"
+
+#~ msgid "Color Preset"
+#~ msgstr "カラープリセット"
+
+#~ msgid "Text color"
+#~ msgstr "文字色"
+
+#~ msgid "Link text color ( default )"
+#~ msgstr "リンク文字色（標準）"
+
+#~ msgid "Link text color ( hover )"
+#~ msgstr "リンク文字色（hover）"
+
+#~ msgid "Text size"
+#~ msgstr "テキストサイズ"
+
+#~ msgid "Body font size"
+#~ msgstr "Bodyのフォント サイズ"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "Container size"
+#~ msgstr "コンテナサイズ"
+
+#~ msgid "Developer Tool"
+#~ msgstr "開発ツール"
+
+#~ msgid "Display Action Hook Position"
+#~ msgstr "アクションフックの場所を表示"
+
+#~ msgid ""
+#~ "Display the position and name of the action hook only on the customize "
+#~ "screen."
+#~ msgstr "カスタマイズ画面でのみアクションフックの位置と名称を可視化します。"
+
+#~ msgid "Some action hooks are not displayed even if checked."
+#~ msgstr "チェックを入れても表示されないアクションフックもあります。"
+
+#~ msgid "H2 and main section title"
+#~ msgstr "H2 と メインセクション見出し"
+
+#~ msgid "Sub section title"
+#~ msgstr "サブセクション見出し"
+
+#~ msgid "Footer section title"
+#~ msgstr "フッタータイトル"
+
+#~ msgid "H3"
+#~ msgstr "H3"
+
+#~ msgid "H4"
+#~ msgstr "H4"
+
+#~ msgid "H5"
+#~ msgstr "H5"
+
+#~ msgid "H6"
+#~ msgstr "H6"
+
+#~ msgid "Plain"
+#~ msgstr "プレーン"
+
+#~ msgid "Plain ( Align center )"
+#~ msgstr "プレーン（中央揃え）"
+
+#~ msgid "Speech balloon fill"
+#~ msgstr "吹き出し塗り"
+
+#~ msgid "Background fill"
+#~ msgstr "背景塗り"
+
+#~ msgid "Background fill stitch"
+#~ msgstr "背景塗り スティッチ"
+
+#~ msgid "Background fill lightgray"
+#~ msgstr "背景塗り 薄い灰色"
+
+#~ msgid "Top border keycolor background fill none"
+#~ msgstr "上線 キーカラー 背景塗りなし"
+
+#~ msgid "Top border keycolor background fill black"
+#~ msgstr "上線 キーカラー 背景塗り黒"
+
+#~ msgid "Double"
+#~ msgstr "二重線"
+
+#~ msgid "Double black"
+#~ msgstr "二重線 黒"
+
+#~ msgid "Double bottom border"
+#~ msgstr "二重下線"
+
+#~ msgid "Double bottom border black"
+#~ msgstr "二重下線 黒"
+
+#~ msgid "Solid"
+#~ msgstr "線"
+
+#~ msgid "Solid black"
+#~ msgstr "線 黒"
+
+#~ msgid "Solid bottom border"
+#~ msgstr "下線"
+
+#~ msgid "Solid bottom border black"
+#~ msgstr "下線 黒"
+
+#~ msgid "Solid bottom border left keycolor"
+#~ msgstr "下線 左キーカラー"
+
+#~ msgid "Dotted bottom border black"
+#~ msgstr "下線 点線 黒"
+
+#~ msgid "Both ends"
+#~ msgstr "左右線"
+
+#~ msgid "Left border"
+#~ msgstr "左線"
+
+#~ msgid "Left border nobackground"
+#~ msgstr "左線 背景なし"
+
+#~ msgid "Diagonal stripe bottom border"
+#~ msgstr "斜線ストライプ"
+
+#~ msgid "Brackets"
+#~ msgstr "括弧"
+
+#~ msgid "Brackets black"
+#~ msgstr "括弧 黒"
+
+#~ msgid "Small bottom border"
+#~ msgstr "小さい下線"
+
+#~ msgid "Headding Design"
+#~ msgstr "見出しデザイン"
+
+#~ msgid "※ 配置する場所の背景色などの都合で適切に見えないものがあります。"
+#~ msgstr "配置する場所の背景色などの都合で適切に見えないものがあります。"
+
+#~ msgid "No setting"
+#~ msgstr "設定なし"
+
+#~ msgid "H2"
+#~ msgstr "H2"
+
+#~ msgid "Header color"
+#~ msgstr "ヘッダーカラー"
+
+#~ msgid "Header background color"
+#~ msgstr "ヘッダー 背景色"
+
+#~ msgid "Global Nav background color"
+#~ msgstr "グローバルナビ背景色"
+
+#~ msgid "Add Global Nav border top"
+#~ msgstr "グローバルナビの上部に線を追加する"
+
+#~ msgid "border color is key color."
+#~ msgstr "線の色はキーカラーです。"
+
+#~ msgid "Header Settings"
+#~ msgstr "ヘッダー設定"
+
+#~ msgid "Header Layout"
+#~ msgstr "ヘッダーレイアウト"
+
+#~ msgid "Nav Float"
+#~ msgstr "ナビゲーション回り込み"
+
+#~ msgid "Nav Float and Vertical ( Beta )"
+#~ msgstr "ナビゲーション回り込み & 縦書き（β）"
+
+#~ msgid "Align Center"
+#~ msgstr "中央揃え"
+
+#~ msgid "Align Center and Vertical ( Beta )"
+#~ msgstr "中央揃え & ナビ縦書き（β）"
+
+#~ msgid "Center Logo & Nav Penetration"
+#~ msgstr "タイトル中央 & ナビ貫通"
+
+#~ msgid "Header Sub Contact & Nav Penetration"
+#~ msgstr "ヘッダーコンタクトあり & ナビ貫通"
+
+#~ msgid "Header Sub Widget & Nav Penetration"
+#~ msgstr "ヘッダーウィジェットあり & ナビ貫通"
+
+#~ msgid "Global Nav scrolled layout"
+#~ msgstr "グローバルナビスクロール時のレイアウト"
+
+#~ msgid "Not fixed"
+#~ msgstr "固定しない"
+
+#~ msgid "Fixed nav align center"
+#~ msgstr "固定 ナビ中央揃え"
+
+#~ msgid "Fixed nav container width"
+#~ msgstr "固定 ナビコンテナ幅"
+
+#~ msgid "Fixed Logo & Nav Float"
+#~ msgstr "固定 ロゴ & ナビ回り込み"
+
+#~ msgid "Fixed Logo & Nav Float Full width"
+#~ msgstr "固定 ロゴ & ナビ回り込み全幅"
+
+#~ msgid ""
+#~ "If you change to Not fixed or other layout that it will not be reflected "
+#~ "unless it is saved and reloaded."
+#~ msgstr ""
+#~ "固定しない あるいは その他のレイアウトに切り替えた場合は、一度保存して再読"
+#~ "み込みしないと反映されません。"
+
+#~ msgid ""
+#~ "If you select Nav Float, adjust the number of navigations and the number "
+#~ "of characters as needed so that the navigation does not cover the logo."
+#~ msgstr ""
+#~ "ナビ回り込み を選択した場合は、ナビゲーションがロゴを覆わないように、必要"
+#~ "に応じてナビゲーションの数と文字の数を調整してください。"
+
+#~ msgid "If not set, the header logo image will be reflected."
+#~ msgstr "未設定の場合はヘッダーロゴが反映されます。"
+
+#~ msgid "Make it the same size as the logo image in the header logo image."
+#~ msgstr "ヘッダーロゴと同じサイズの画像にしてください。"
+
+#~ msgid "Scrolled logo"
+#~ msgstr "スクロール時のロゴ"
+
+#~ msgid "Position of header logo on mobile"
+#~ msgstr "モバイルでのロゴの位置"
+
+#~ msgid "Center"
+#~ msgstr "中央"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgid "Please feel free to inquire."
+#~ msgstr "お気軽にお問い合わせください。"
+
+#~ msgid "Office hours 9:00 - 18:00 [ Weekdays except holidays ]"
+#~ msgstr "営業時間 9:00～18:00 [祝日を除く平日]"
+
+#~ msgid "Contact us"
+#~ msgstr "お問い合わせ"
+
+#~ msgid "Header Right Area"
+#~ msgstr "ヘッダー右側エリア"
+
+#~ msgid ""
+#~ "If you enter here, the input will be reflected in the catchphrase at the "
+#~ "top of the page."
+#~ msgstr ""
+#~ "ここに入力があると、入力内容がページ上部のキャッチフレーズに反映されます。"
+
+#~ msgid "Catchphrase for Header Top"
+#~ msgstr "ヘッダートップのキャッチフレーズ"
+
+#~ msgid "Header Top Settings"
+#~ msgstr "ヘッダー上部設定"
+
+#~ msgid "Hide header top area"
+#~ msgstr "ヘッダー上部エリアを表示しない"
+
+#~ msgid "Text align center and hide menu and contact button"
+#~ msgstr ""
+#~ "メニューと問い合わせボタンを非表示にしてテキストをセンター揃えにする"
+
+#~ msgid "Contact Button"
+#~ msgstr "連絡先]ボタン"
+
+#~ msgid "Hide header top contact button"
+#~ msgstr "ヘッダー上部の連絡先ボタンを隠す"
+
+#~ msgid "Contact button text"
+#~ msgstr "お問い合わせボタンの文字"
+
+#~ msgid "Contact button link url"
+#~ msgstr "お問い合わせボタンリンクURL"
+
+#~ msgid "Open link target in new tab"
+#~ msgstr "リンク先を別ウィンドウで開く"
+
+#~ msgid "Contact button icon"
+#~ msgstr "お問い合わせボタンアイコン"
+
+#~ msgid "Contact Tel"
+#~ msgstr "お問い合わせ電話番号"
+
+#~ msgid "Hide header top tel button"
+#~ msgstr "ヘッダートップのTELボタンを隠す"
+
+#~ msgid "Contact tel number"
+#~ msgstr "お問い合わせ電話番号"
+
+#~ msgid "Contact tel icon"
+#~ msgstr "お問い合わせ電話用アイコン"
+
+#~ msgid "Color"
+#~ msgstr "色"
+
+#~ msgid "Background color"
+#~ msgstr "背景色"
+
+#~ msgid "Border bottom color"
+#~ msgstr "下線の色"
+
+#~ msgid "Header transmission"
+#~ msgstr "ヘッダー透過"
+
+#, php-format
+#~ msgid ""
+#~ "Please set from <a href=\"%s\" target=\"_blank\">Appearance > Customize</"
+#~ "a> > Lightning Header Setting."
+#~ msgstr ""
+#~ "<a href=“%s” target=“_blank”>外観 > カスタマイズ</a> > Lightning ヘッダー"
+#~ "設定 から設定してください。"
+
+#~ msgid "Use common settings"
+#~ msgstr "共通設定を適用"
+
+#~ msgid "Enable transparency"
+#~ msgstr "ヘッダー透過を有効にする"
+
+#~ msgid "Disable transparency"
+#~ msgstr "ヘッダー透過を無効にする"
+
+#, php-format
+#~ msgid ""
+#~ "\"Common setting\" can set from <a href=\"%s\" "
+#~ "target=\"_blank\">Appearance > Customize</a> > Lightning Header Setting."
+#~ msgstr ""
+#~ "「共通設定」は <a href=“%s” target=“_blank”>外観 > カスタマイズ</a> > "
+#~ "Lightning ヘッダー設定 から設定できます。"
+
+#~ msgid "Header Transmission"
+#~ msgstr "ヘッダー透過"
+
+#~ msgid "Enable header transmission"
+#~ msgstr "ヘッダーを透過を有効にする"
+
+#~ msgid "Not transparent"
+#~ msgstr "透過しない"
+
+#~ msgid "Front only"
+#~ msgstr "トップページのみ"
+
+#~ msgid "All Pages"
+#~ msgstr "全てのページ"
+
+#~ msgid "Transmission mode Header Background Color"
+#~ msgstr "透過時 ヘッダー背景色"
+
+#~ msgid "Transmission mode Header Text Color"
+#~ msgstr "透過時 ヘッダー文字色"
+
+#~ msgid "Transmission mode Header Opacity"
+#~ msgstr "透過時 ヘッダー透過度"
+
+#~ msgid "Transmission mode Header Top Opacity"
+#~ msgstr "透過時 ヘッダー上部透過度"
+
+#~ msgid "Gradation Mode"
+#~ msgstr "グラデーションモード"
+
+#~ msgid "No gradation"
+#~ msgstr "グラデーションしない"
+
+#~ msgid "Active only wide screen"
+#~ msgstr "画面が広い場合のみ有効"
+
+#~ msgid "Active all screen width"
+#~ msgstr "全ての画面サイズで有効"
+
+#~ msgid "Transmission mode Header Logo Image"
+#~ msgstr "透過時 ヘッダーロゴ画像"
+
+#~ msgid "Recommended image size : 280*60px"
+#~ msgstr "推奨画像サイズ: 280×60px"
+
+#~ msgid "Header Height"
+#~ msgstr "ヘッダー高さ"
+
+#~ msgid ""
+#~ "※ ヘッダーの高さ自体を変更するための指定ではありません。通常JavaScriptで自"
+#~ "動的にヘッダーの高さを検出しますが、ここで予めヘッダーの高さが指定する事に"
+#~ "より、そのJavaScriptのファイルの読み込み及びプログラムの実行の必要がなくな"
+#~ "るので少しだけ反応が早くなるという機能です。"
+#~ msgstr ""
+#~ "※ ヘッダーの高さ自体を変更するための指定ではありません。通常JavaScriptで自"
+#~ "動的にヘッダーの高さを検出しますが、ここで予めヘッダーの高さが指定する事に"
+#~ "より、そのJavaScriptのファイルの読み込み及びプログラムの実行の必要がなくな"
+#~ "るので少しだけ反応が早くなるという機能です。"
+
+#~ msgid "Header height"
+#~ msgstr "ヘッダー高さ"
+
+#~ msgid "Don't display Header"
+#~ msgstr "ヘッダーを表示しない"
+
+#~ msgid "Don't display Page Header"
+#~ msgstr "ページヘッダーを表示しない"
+
+#~ msgid "Don't display Breadcrumb"
+#~ msgstr "パンくずリストを表示しない"
+
+#~ msgid "Don't display Footer"
+#~ msgstr "フッターを表示しない"
+
+#~ msgid "Don't display Mobile Menu Button"
+#~ msgstr "ハンバーガーボタンを表示しない"
+
+#~ msgid "Don't display Mobile Fix Nav"
+#~ msgstr "モバイル固定ナビを表示しない"
+
+#~ msgid "Hidden setting"
+#~ msgstr "非表示設定"
+
+#~ msgid "Edit this area"
+#~ msgstr "このエリアを編集"
+
+#~ msgid "404 Page"
+#~ msgstr "404ページ"
+
+#~ msgid "Archive Page Setting"
+#~ msgstr "アーカイブページ設定"
+
+#~ msgid "Author"
+#~ msgstr "投稿者"
+
+#~ msgid "Search"
+#~ msgstr "検索"
+
+#~ msgid "default"
+#~ msgstr "標準"
+
+#~ msgid ""
+#~ "If the search condition includes the \"post type\" as not only the "
+#~ "keyword search, the settings specified in the \"post type\" will be "
+#~ "applied."
+#~ msgstr ""
+#~ "検索条件にキーワード検索だけでなく「投稿タイプ」が含まれている場合は、「投"
+#~ "稿タイプ」で指定した設定が適用されます。"
+
+#~ msgid "Display conditions"
+#~ msgstr "表示条件"
+
+#~ msgid "Number of posts per page"
+#~ msgstr "表示件数"
+
+#, php-format
+#~ msgid "Display type and columns [ %s ]"
+#~ msgstr "表示タイプとカラム[ %s ]"
+
+#~ msgid "Display type"
+#~ msgstr "表示タイプ"
+
+#~ msgid "Extra small"
+#~ msgstr "Extra small"
+
+#~ msgid "Small"
+#~ msgstr "Small"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"
+
+#~ msgid "Large"
+#~ msgstr "Large"
+
+#~ msgid "Extra large"
+#~ msgstr "Extra large"
+
+#~ msgid "XX large"
+#~ msgstr "XX large"
+
+#, php-format
+#~ msgid "Column ( Screen size : %s )"
+#~ msgstr "カラム ( 画面サイズ : %s )"
+
+#~ msgid "Order Option"
+#~ msgstr "表示順オプション"
+
+#~ msgid "Published Day"
+#~ msgstr "公開日"
+
+#~ msgid "Modefied Day"
+#~ msgstr "更新日"
+
+#~ msgid "Title"
+#~ msgstr "タイトル"
+
+#~ msgid "Random"
+#~ msgstr "ランダム"
+
+#~ msgid "Order"
+#~ msgstr "順番"
+
+#~ msgid "DESC"
+#~ msgstr "降順"
+
+#~ msgid "ASC"
+#~ msgstr "昇順"
+
+#, php-format
+#~ msgid "Display item [ %s ]"
+#~ msgstr "表示要素 [ %s ]"
+
+#~ msgid "Image"
+#~ msgstr "画像"
+
+#~ msgid "Term's name on Image"
+#~ msgstr "画像右上分類名"
+
+#~ msgid "Excerpt"
+#~ msgstr "抜粋"
+
+#~ msgid "Date"
+#~ msgstr "日付"
+
+#~ msgid "New mark"
+#~ msgstr "新着表示"
+
+#~ msgid "Taxonomies (all)"
+#~ msgstr "分類（全項目）"
+
+#~ msgid "Button"
+#~ msgstr "ボタン"
+
+#, php-format
+#~ msgid "New mark option [ %s ]"
+#~ msgstr "新着表示オプション [ %s ]"
+
+#~ msgid "Number of days to display the new post mark"
+#~ msgstr "新着表示する日数"
+
+#~ msgid "New mark text"
+#~ msgstr "新着表示テキスト"
+
+#, php-format
+#~ msgid "Button option [ %s ]"
+#~ msgstr "ボタンオプション [ %s ]"
+
+#~ msgid "Button text"
+#~ msgstr "ボタンの文字"
+
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgid "Text align"
+#~ msgstr "文字の位置"
+
+#~ msgid "Media Posts BS4"
+#~ msgstr "Media Posts BS4"
+
+#~ msgid ""
+#~ "It is a widget that displays the post list. Various shapes can be "
+#~ "selected."
+#~ msgstr "投稿リスト用のウィジェットです。様々な表示形式が選択できます。"
+
+#~ msgid "Recent Posts"
+#~ msgstr "最近の投稿"
+
+#~ msgid "Read more"
+#~ msgstr "続きを読む"
+
+#~ msgid "Title:"
+#~ msgstr "タイトル:"
+
+#~ msgid "Display post types"
+#~ msgstr "表示タイプ"
+
+#~ msgid "Category(Term) ID"
+#~ msgstr "カテゴリー (ターム) ID"
+
+#~ msgid ""
+#~ "If you need filtering by category(term), add the category ID separate by "
+#~ "\",\"."
+#~ msgstr ""
+#~ "特定のカテゴリー（あるいはカスタム分類）の投稿だけを表示したい場合は、表示"
+#~ "したいカテゴリーのIDを , 区切りで入力してください。"
+
+#~ msgid "If empty this area, I will do not filtering."
+#~ msgstr "未入力の場合はカスタム分類による絞り込みはされません。"
+
+#~ msgid "Display count"
+#~ msgstr "表示件数"
+
+#~ msgid "Offset count"
+#~ msgstr "オフセット数"
+
+#~ msgid "Display type and columns"
+#~ msgstr "表示タイプとカラム"
+
+#~ msgid "Columns"
+#~ msgstr "カラム"
+
+#~ msgid "Please input column count to under the range of 1 to 4."
+#~ msgstr "1～4の間でカラム数を設定してください。"
+
+#~ msgid "Order by"
+#~ msgstr "表示順の基準"
+
+#~ msgid "Display item"
+#~ msgstr "表示要素 "
+
+#~ msgid "New mark option"
+#~ msgstr "新着表示オプション"
+
+#~ msgid "Button option"
+#~ msgstr "ボタンオプション"
+
+#~ msgid "Button align"
+#~ msgstr "ボタンの位置"
+
+#~ msgid "Card"
+#~ msgstr "カード"
+
+#~ msgid "Card Noborder"
+#~ msgstr "カード（線なし）"
+
+#~ msgid "Card Intext"
+#~ msgstr "カードインテキスト"
+
+#~ msgid "Card Horizontal"
+#~ msgstr "カード（水平）"
+
+#~ msgid "Media"
+#~ msgstr "メディア"
+
+#~ msgctxt "post list type"
+#~ msgid "Text 1 Column"
+#~ msgstr "テキスト 1 カラム"
+
+#~ msgid "New!!"
+#~ msgstr "New!!"
+
+#~ msgid "Posts"
+#~ msgstr "投稿"
+
+#~ msgid "Pages"
+#~ msgstr "固定ページ"
+
+#~ msgid "Page Header Setting"
+#~ msgstr "ページヘッダー設定"
+
+#~ msgid "Common"
+#~ msgstr "共通"
+
+#~ msgid "Page title"
+#~ msgstr "ページタイトル"
+
+#~ msgid "Ancestor page title"
+#~ msgstr "先祖階層のページタイトル"
+
+#~ msgid "Post type name"
+#~ msgstr "投稿タイプ名"
+
+#~ msgid "Post title"
+#~ msgstr "投稿タイトル"
+
+#~ msgid "Post title and meta"
+#~ msgstr "投稿タイトルとメタ情報"
+
+#~ msgid "Display elements"
+#~ msgstr "表示要素 "
+
+#~ msgid "Sub text"
+#~ msgstr "サブテキスト"
+
+#~ msgid "Text shadow color"
+#~ msgstr "文字の影の色"
+
+#~ msgid "Minimum height"
+#~ msgstr "最小高さ"
+
+#~ msgid "Cover color"
+#~ msgstr "被せる色"
+
+#~ msgid "Cover opacity"
+#~ msgstr "被せる色の濃さ"
+
+#~ msgid "Please enter a number from 0 to 1"
+#~ msgstr "0から1の数字で入力してください"
+
+#~ msgid ""
+#~ "If you want to change the image of a specific page, you can set it from "
+#~ "the editing screen of each fixed page."
+#~ msgstr ""
+#~ "特定の固定ページの画像を変更したい場合は、各固定ページの編集画面から設定で"
+#~ "きます。"
+
+#~ msgid "When not set, the image of [ Common ] is applied."
+#~ msgstr "未設定の場合は [ 基本 ] の画像が適用されます。"
+
+#~ msgid "Background image (PC)"
+#~ msgstr "背景画像（PC）"
+
+#~ msgid "Background image (Mobile)"
+#~ msgstr "背景画像（モバイル）"
+
+#~ msgid "Background image position"
+#~ msgstr "背景画像の位置"
+
+#~ msgid "normal"
+#~ msgstr "標準"
+
+#~ msgid "Fixed"
+#~ msgstr "固定"
+
+#~ msgid "* Not fixed on iOS"
+#~ msgstr "* iOSでは固定されません"
+
+#~ msgid "Page Header Image"
+#~ msgstr "ページヘッダー画像"
+
+#~ msgid "Page header subtext"
+#~ msgstr "ページヘッダーサブテキスト"
+
+#~ msgid "Page header bg image"
+#~ msgstr "ページヘッダー背景画像"
+
+#~ msgid "Mobile"
+#~ msgstr "モバイル"
+
+#~ msgid "Publish Date"
+#~ msgstr "公開日"
+
+#~ msgid "Updated Date"
+#~ msgstr "更新日"
+
+#~ msgid "Next Prev"
+#~ msgstr "前の記事 次の記事"
+
+#~ msgid "Single Page Setting"
+#~ msgstr "詳細ページ設定"
+
+#~ msgid "Hidden elements"
+#~ msgstr "非表示要素"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "必須プラグインのインストール"
+
+#~ msgid "Install Plugins"
+#~ msgstr "プラグインのインストール"
+
+#, php-format
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "プラグインのインストール中: %s"
+
+#, php-format
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "プラグインを更新中: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "プラグイン API で問題が発生しました。"
+
+#, php-format
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "このテーマは次のプラグインが必要です: %1$s"
+
+#, php-format
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "このテーマは次のプラグインと一緒に利用するのがオススメです: %1$s"
+
+#, php-format
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "このテーマと最大限互換性を保つには次のプラグインを最新版に更新する必要があ"
+#~ "ります: %1$s"
+
+#, php-format
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "次のプラグインの更新が利用可能です：%1$s。"
+
+#, php-format
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "次の必須プラグインは現在、停止中です: %1$s"
+
+#, php-format
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "次の推奨プラグインは現在、停止中です: %1$s"
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "プラグインのインストールを開始"
+
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "プラグインの更新を開始"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "プラグインの有効化を開始"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "必須プラグインのインストール画面に戻る"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "ダッシュボードに戻る"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "プラグインを有効化しました。"
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "次のプラグインを有効化しました:"
+
+#, php-format
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr ""
+#~ "操作を実行しませんでした。プラグイン %1$s はすでに有効化されています。"
+
+#, php-format
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "プラグインを有効化できませんでした。このテーマはプラグイン %s の現在のバー"
+#~ "ジョンをサポートしていません。プラグインを更新してください。"
+
+#, php-format
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "すべてのプラグインを正常にインストールし、有効化しました。 %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "通知を無視"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "インストール、更新、またはアクティブ化するために、1つまたは複数の必須プラ"
+#~ "グインまたは推奨プラグインがあります。"
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr ""
+#~ "使用中のテーマとの互換性を保つため、このプラグインを更新する必要がありま"
+#~ "す。"
+
+#~ msgid "Update Required"
+#~ msgstr "更新が必要"
+
+#~ msgid "Set the parent_slug config variable instead."
+#~ msgstr "代替として parent_slug 構成変数を設定してください。"
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr ""
+#~ "リモートプラグインパッケージには、指定されたスラッグのフォルダーがないた"
+#~ "め、名前を変更できませんでした。"
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "プラグイン開発者に連絡し、WordPress のガイドラインに沿ったプラグインのパッ"
+#~ "ケージ化を依頼してください。"
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "リモートプラグインパッケージは複数のファイルで構成されていますが、ファイル"
+#~ "は1つのフォルダ内にパッケージされていません。"
+
+#~ msgctxt "plugin A *and* plugin B"
+#~ msgid "and"
+#~ msgstr "と"
+
+#, php-format
+#~ msgid "TGMPA v%s"
+#~ msgstr "TGMPA v%s"
+
+#~ msgid "Recommended"
+#~ msgstr "推奨"
+
+#~ msgid "WordPress Repository"
+#~ msgstr "WordPress 公式ディレクトリ"
+
+#~ msgid "External Source"
+#~ msgstr "外部ソース"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "プリパッケージ"
+
+#~ msgid "Not Installed"
+#~ msgstr "未インストール"
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "停止中"
+
+#~ msgid "Active"
+#~ msgstr "有効"
+
+#, fuzzy
+#~| msgid "Required Update not Available"
+#~ msgid "Required Update not Available"
+#~ msgstr "必要な更新が利用不可"
+
+#, fuzzy
+#~| msgid "Required"
+#~ msgid "Requires Update"
+#~ msgstr "必須"
+
+#~ msgid "Update recommended"
+#~ msgstr "更新を推奨"
+
+#, php-format
+#~ msgctxt "Install/Update Status"
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s、%2$s"
+
+#, php-format
+#~ msgctxt "plugins"
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgid_plural "All <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "更新可能 <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "停止中 <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "as in: \"version nr unknown\""
+#~ msgid "unknown"
+#~ msgstr "不明"
+
+#~ msgid "Installed version:"
+#~ msgstr "インストール済みバージョン:"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "最低要求バージョン:"
+
+#~ msgid "Available version:"
+#~ msgstr "利用可能なバージョン:"
+
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "インストール、更新、またはアクティブ化するプラグインはありません。"
+
+#~ msgid "Plugin"
+#~ msgstr "プラグイン"
+
+#~ msgid "Source"
+#~ msgstr "取得元"
+
+#~ msgid "Type"
+#~ msgstr "種類"
+
+#~ msgid "Version"
+#~ msgstr "バージョン"
+
+#~ msgid "Status"
+#~ msgstr "状態"
+
+#, php-format
+#~ msgid "Install %2$s"
+#~ msgstr "%2$sをインストール"
+
+#, php-format
+#~ msgid "Update %2$s"
+#~ msgstr "%2$sを更新"
+
+#, php-format
+#~ msgid "Activate %2$s"
+#~ msgstr "%2$sを有効化"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "プラグイン作者からの更新メッセージ:"
+
+#~ msgid "Install"
+#~ msgstr "インストール"
+
+#~ msgid "Update"
+#~ msgstr "アップデート"
+
+#~ msgid "Activate"
+#~ msgstr "有効化"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr ""
+#~ "インストールするプラグインが選択されていません。処理を中断しました。"
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr "更新するプラグインが選択されていません。処理を中断しました。"
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "現在インストール可能なプラグインはありません。"
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "現在更新可能なプラグインはありません。"
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr "有効化するプラグインが選択されていません。処理を中断しました。"
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "現在有効化可能なプラグインはありません。"
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "プラグインの有効化に失敗しました。"
+
+#, php-format
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "プラグインを更新中 %1$s (%2$d/%3$d)"
+
+#, php-format
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "<strong>%2$s</strong>%1$s のインストール中にエラーが発生しました。"
+
+#, php-format
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "%1$s のインストールに失敗しました。"
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "インストールと有効化を開始しました。環境によっては時間がかかる場合がありま"
+#~ "す。しばらくお待ちください。"
+
+#, php-format
+#~ msgid "%1$s done."
+#~ msgstr "%1$s 完了。"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "すべてのインストールと有効化が完了しました。"
+
+#, php-format
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "プラグインをインストール、有効化中 %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "更新プロセスを開始しました。環境によっては時間がかかる場合があります。しば"
+#~ "らくお待ちください。"
+
+#~ msgid "All installations have been completed."
+#~ msgstr "すべてのインストールが完了しました。"
+
+#, php-format
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "プラグインをインストール中 %1$s (%2$d/%3$d)"
+
+#~ msgid "Sorry, there is no post"
+#~ msgstr "お知らせはありません"
+
+#~ msgid "Vektor WordPress Information"
+#~ msgstr "Vektor WordPress Information"
+
+#~ msgid "Header Before"
+#~ msgstr "ヘッダーの上"
+
+#~ msgid "Header After"
+#~ msgstr "ヘッダーの下"
+
+#~ msgid "Campaign Text"
+#~ msgstr "キャンペーンテキスト"
+
+#~ msgid "Display Campaign Text"
+#~ msgstr "キャンペーンテキストを表示する"
+
+#~ msgid "Hide"
+#~ msgstr "非表示"
+
+#~ msgid "Show in Front Page"
+#~ msgstr "トップページでのみ表示"
+
+#~ msgid "Show in Full Page"
+#~ msgstr "全ページで表示"
+
+#~ msgid "Display Position"
+#~ msgstr "表示する場所"
+
+#~ msgid ""
+#~ "* If you save and reload after making changes, the position of campaign "
+#~ "text will change."
+#~ msgstr ""
+#~ "* 変更後に保存してリロードすると、キャンペーンテキストの位置が変更されま"
+#~ "す。"
+
+#~ msgid "Icon"
+#~ msgstr "アイコン"
+
+#~ msgid "To choose your favorite icon, and entire html."
+#~ msgstr "アイコンを選んでそのHTMLを入力してください。"
+
+#~ msgctxt "campaign text"
+#~ msgid "Text"
+#~ msgstr "本文テキスト"
+
+#~ msgid "Text Color"
+#~ msgstr "テキスト色"
+
+#~ msgid "Background Color"
+#~ msgstr "背景色"
+
+#~ msgid "Background Pattern"
+#~ msgstr "背景パターン"
+
+#~ msgid "Fill"
+#~ msgstr "塗り"
+
+#~ msgid "Stripe"
+#~ msgstr "ストライプ"
+
+#~ msgid "Button Text"
+#~ msgstr "ボタンの文字"
+
+#~ msgid "Button Text Color"
+#~ msgstr "ボタンの文字色"
+
+#~ msgid "Button Background Color"
+#~ msgstr "ボタンの背景色"
+
+#~ msgid "Button Text Hover Color"
+#~ msgstr "ホバー時のボタンのテキスト色"
+
+#~ msgid "Button Background Hover Color"
+#~ msgstr "ホバー時のボタンの背景色"
+
+#~ msgid "Link URL"
+#~ msgstr "リンクURL"
+
+#~ msgid "Open in New Tab"
+#~ msgstr "新しいタブで開く"
+
+#~ msgid "Header Logo"
+#~ msgstr "ヘッダーロゴ"
+
+#~ msgid "Global Menu"
+#~ msgstr "グローバルメニュー"
+
+#~ msgid "Text"
+#~ msgstr "本文テキスト"
+
+#~ msgid "Unspecified"
+#~ msgstr "指定なし"
+
+#~ msgid "Mincho"
+#~ msgstr "明朝体"
+
+#~ msgid "Hiragino Kaku Gothic"
+#~ msgstr "ヒラギノ角ゴ"
+
+#~ msgid "Yu Gothic"
+#~ msgstr "游ゴシック"
+
+#~ msgid "Meiryo"
+#~ msgstr "メイリオ"
+
+#~ msgid "San Francisco"
+#~ msgstr "San Francisco"
+
+#~ msgid "Font Setting"
+#~ msgstr "フォント設定"
+
+#~ msgid ""
+#~ "If you want to apply the same font on mobile devices, please select web "
+#~ "font (Google Fonts)."
+#~ msgstr ""
+#~ "モバイル端末でも同じフォントを適用したい場合は、ウェブフォント（Google "
+#~ "Fonts）を選択してください。"
+
+#~ msgid ""
+#~ "The web font (Google Fonts) loads the font data, so the display will be "
+#~ "slightly late."
+#~ msgstr ""
+#~ "ウェブフォント（Google Fonts）はフォントデータを読み込むので若干表示が遅く"
+#~ "なります。"
+
+#~ msgid ":"
+#~ msgstr "："
+
+#~ msgid "Footer settings"
+#~ msgstr "フッター設定"
+
+#~ msgid "Footer Style Setting"
+#~ msgstr "フッタースタイル設定"
+
+#~ msgid "Footer Nav Align"
+#~ msgstr "フッターナビ位置"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "フッター背景色"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "フッター文字色"
+
+#~ msgid "Footer Image"
+#~ msgstr "フッター背景画像"
+
+#~ msgid "Footer Image Repeat"
+#~ msgstr "フッター背景画像繰り返し"
+
+#~ msgid "No Repeat"
+#~ msgstr "繰り返し無し"
+
+#~ msgid "Repeat X"
+#~ msgstr "横方向に繰り返し"
+
+#~ msgid "Repeat Y"
+#~ msgstr "縦方向に繰り返し"
+
+#~ msgid "Repeat X and Y"
+#~ msgstr "繰り返し"
+
+#~ msgid "Footer Image Justify"
+#~ msgstr "フッター背景画像の位置"
+
+#~ msgid "Default"
+#~ msgstr "標準"
+
+#~ msgid "Cover"
+#~ msgstr "カバー"
+
+#~ msgid "Justify Bottpm"
+#~ msgstr "下"
+
+#~ msgid "Justify Left Bottom"
+#~ msgstr "左下"
+
+#~ msgid "Justify Right Bottom"
+#~ msgstr "右下"
+
+#~ msgid "Footer Widget Setting"
+#~ msgstr "フッターウィジェット設定"
+
+#~ msgid "Footer Widget Area Count"
+#~ msgstr "フッターウィジェットエリア 数"
+
+#~ msgid "1 column"
+#~ msgstr "１カラム"
+
+#~ msgid "2 column"
+#~ msgstr "２カラム"
+
+#~ msgid "3 column"
+#~ msgstr "3 カラム"
+
+#~ msgid "4 column"
+#~ msgstr "4 カラム"
+
+#~ msgid "6 column"
+#~ msgstr "６カラム"
+
+#~ msgid ""
+#~ "* If you save and reload after making changes, the number of the widget "
+#~ "area setting panels  will increase or decrease."
+#~ msgstr ""
+#~ "保存してページを再読み込みすると、ウィジェットの設定パネル数が増減します。"
+
+#~ msgid "Widget area of mobile fix nav"
+#~ msgstr "モバイル固定ナビ ウィジェットエリア"
+
+#~ msgid "Mobile Fix Nav"
+#~ msgstr "モバイル固定ナビ"
+
+#~ msgid "Do not display Mobile Fix Nav"
+#~ msgstr "モバイル固定ナビを表示しない"
+
+#~ msgid "Mobile Fix Nav Widget Area"
+#~ msgstr "モバイル固定ナビ ウィジェットエリア"
+
+#~ msgid "Add Widget Area Padding"
+#~ msgstr "ウィジェットエリアに余白を追加する"
+
+#~ msgid "Add menu open and close button"
+#~ msgstr "メニュー開閉ボタンの追加"
+
+#~ msgid "Add menu open and close button to first."
+#~ msgstr "最初にメニューの開閉ボタンを追加する"
+
+#~ msgid ""
+#~ "* When using Font Awesome 5 SVG, the icon does not switch at menu open."
+#~ msgstr ""
+#~ "* Font Awesome 5 の SVG版を利用している場合はメニュー開閉時にアイコンが切"
+#~ "り替わりません。"
+
+#~ msgid "Link text:"
+#~ msgstr "リンクテキスト:"
+
+#~ msgid "Fix Navi button"
+#~ msgstr "固定ナビボタン"
+
+#~ msgid "Font Awesome icon font"
+#~ msgstr "Font Awesome アイコンフォント"
+
+#~ msgid "To choose your favorite icon, and enter the icon html tag."
+#~ msgstr "アイコンを選んでアイコンのhtmlタグを入力してください。"
+
+#~ msgid "Link URL:"
+#~ msgstr "リンク URL:"
+
+#~ msgid "Ex"
+#~ msgstr "例"
+
+#~ msgid "Open link new tab."
+#~ msgstr "リンク先を別ウィンドウで開く"
+
+#~ msgid "Click event:"
+#~ msgstr "クリックイベント:"
+
+#~ msgid "Navi Common Settings"
+#~ msgstr "共通設定"
+
+#~ msgid "Text Color:"
+#~ msgstr "文字の色:"
+
+#~ msgid "Background Color:"
+#~ msgstr "背景色:"
+
+#~ msgid "Current Color:"
+#~ msgstr "Current Color:"
+
+#~ msgid ""
+#~ "The Lightning G3 Pro Unit only works Lightning(free) theme. Plese install "
+#~ "and activate Lightning(free) theme."
+#~ msgstr ""
+#~ "Lightning G3 Pro Unit は テーマが Lightning（無料版）のときのみ動作しま"
+#~ "す。 Lightning（無料版）をインストールし有効化してください。"
+
+#~ msgid ""
+#~ "The Lightning G3 Pro Unit only works in G3 mode. To change to G3 mode, "
+#~ "change to Generation 3 from Appearance > Customize > Lightning Feature "
+#~ "Settings."
+#~ msgstr ""
+#~ "Lightning G3 Pro Unit は G3 モードでのみ動作します。G3モードに変更するには"
+#~ "「外観」>「カスタマイズ」>「Lightning機能設定」から「Generation 3」に変更"
+#~ "します。"
+
+#~ msgid "Setting"
+#~ msgstr "設定"
+
+#~ msgid "Design Customize"
+#~ msgstr "デザイン設定"
+
+#~ msgid "デザインに関するカスタマイズ項目が追加されます。"
+#~ msgstr "デザインに関するカスタマイズ項目が追加されます。"
+
+#~ msgid "Font Selector"
+#~ msgstr "フォント設定"
+
+#~ msgid "見出しや本文のフォントを変更できるようになります。"
+#~ msgstr "見出しや本文のフォントを変更できるようになります。"
+
+#~ msgid "Header Top"
+#~ msgstr "ヘッダー上部"
+
+#~ msgid ""
+#~ "ヘッダーの上部にサイトディスクリプションやメニュー、お問い合わせボタンを追"
+#~ "加できるようになります。"
+#~ msgstr ""
+#~ "ヘッダーの上部にサイトディスクリプションやメニュー、お問い合わせボタンを追"
+#~ "加できるようになります。"
+
+#~ msgid "ヘッダーのレイアウト変更できるようになります。"
+#~ msgstr "ヘッダーのレイアウト変更できるようになります。"
+
+#~ msgid "Header Color"
+#~ msgstr "ヘッダーカラー"
+
+#~ msgid "ヘッダーの色をカスタマイザから指定できるようになります。"
+#~ msgstr "ヘッダーの色をカスタマイザから指定できるようになります。"
+
+#~ msgid "Header Transparent"
+#~ msgstr "ヘッダー透過"
+
+#~ msgid "ヘッダーの透過指定ができるようになります。"
+#~ msgstr "ヘッダーの透過指定ができるようになります。"
+
+#~ msgid "Campain Text"
+#~ msgstr "キャンペーンテキスト"
+
+#~ msgid ""
+#~ "ヘッダーの上や下にキャンペーンテキストを表示する事ができるようになります。"
+#~ msgstr ""
+#~ "ヘッダーの上や下にキャンペーンテキストを表示する事ができるようになります。"
+
+#~ msgid "Page Header"
+#~ msgstr "ページヘッダー"
+
+#~ msgid ""
+#~ "ページヘッダーの表示要素、画像や文字位置、高さなど投稿タイプ毎に設定できる"
+#~ "ようになります。"
+#~ msgstr ""
+#~ "ページヘッダーの表示要素、画像や文字位置、高さなど投稿タイプ毎に設定できる"
+#~ "ようになります。"
+
+#~ msgid "Hide Controller"
+#~ msgstr "非表示制御"
+
+#~ msgid ""
+#~ "ヘッダー、ページヘッダー、パンくずリスト、フッターなどをページ個別で非表示"
+#~ "に設定できるようになります。"
+#~ msgstr ""
+#~ "ヘッダー、ページヘッダー、パンくずリスト、フッターなどをページ個別で非表示"
+#~ "に設定できるようになります。"
+
+#~ msgid "Base Controller"
+#~ msgstr "ベースセクション制御"
+
+#~ msgid "Control add Base Section or not."
+#~ msgstr "ベースセクションを追加するかを選択できます。"
+
+#~ msgid "Heading Design"
+#~ msgstr "見出しデザイン"
+
+#~ msgid "共通の見出しデザインが変更できるようになります。"
+#~ msgstr "共通の見出しデザインが変更できるようになります。"
+
+#~ msgid ""
+#~ "アーカイブページで投稿タイプ毎に投稿一覧の表示レイアウト、要素、件数などを"
+#~ "設定できるようになります。"
+#~ msgstr ""
+#~ "アーカイブページで投稿タイプ毎に投稿一覧の表示レイアウト、要素、件数などを"
+#~ "設定できるようになります。"
+
+#~ msgid "詳細ページ設定"
+#~ msgstr "詳細ページ設定"
+
+#~ msgid "詳細ページでの表示要素などを設定できます。"
+#~ msgstr "詳細ページでの表示要素などを設定できます。"
+
+#~ msgid "Footer Customize"
+#~ msgstr "フッター設定"
+
+#~ msgid ""
+#~ "フッターの色や背景画像、ウィジェットエリア数が設定できるようになります。"
+#~ msgstr ""
+#~ "フッターの色や背景画像、ウィジェットエリア数が設定できるようになります。"
+
+#~ msgid "Copyright Customizer"
+#~ msgstr "コピーライト設定"
+
+#~ msgid "フッターのコピーライトの内容を設定できるようになります。"
+#~ msgstr "フッターのコピーライトの内容を設定できるようになります。"
+
+#~ msgid "Mobile Fix Navigation"
+#~ msgstr "モバイル固定ナビ"
+
+#~ msgid ""
+#~ "画面が狭い場合に画面下部に固定のナビゲーションを設定できるようになります。"
+#~ msgstr ""
+#~ "画面が狭い場合に画面下部に固定のナビゲーションを設定できるようになります。"
+
+#~ msgid "404 Page Customize"
+#~ msgstr "404 ページカスタマイズ"
+
+#~ msgid "404ページに表示する内容を管理画面から編集できるようになります。"
+#~ msgstr "404ページに表示する内容を管理画面から編集できるようになります。"
+
+#~ msgid "パンくずリストの表示位置設定"
+#~ msgstr "パンくずリストの表示位置設定"
+
+#~ msgid ""
+#~ "パンくずリストの表示位置を 外観 > カスタマイズ > レイアウト設定 > パンくず"
+#~ "リスト から変更できるようになります。"
+#~ msgstr ""
+#~ "パンくずリストの表示位置を 外観 > カスタマイズ > レイアウト設定 > パンくず"
+#~ "リスト から変更できるようになります。"
+
+#~ msgid "Not found"
+#~ msgstr "Not found"
+
+#, fuzzy, php-format
+#~| msgid "Search"
+#~ msgid "Search Results for : %s"
+#~ msgstr "検索"
+
+#~ msgid "Search Results"
+#~ msgstr "検索結果"
+
+#~ msgid "View details"
+#~ msgstr "詳細を見る"
+
+#, php-format
+#~ msgid "More information about %s"
+#~ msgstr "%sについての詳細"
+
+#~ msgid "Check for updates"
+#~ msgstr "アップデートを確認"
+
+#, php-format
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "%s プラグインは最新です。"
+
+#, php-format
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "%sプラグインの新しいバージョンが利用可能です。"
+
+#, php-format
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "%1$s.に対して利用可能なアップデートがあるか確認できませんでした"
+
+#, php-format
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "不明なアップデートチェッカーステータス \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "利用可能な変更履歴がありません。"
+
+#~ msgid "Background image of single page"
+#~ msgstr "個別ページでの背景画像"
+
+#~ msgid "No eye-catching image"
+#~ msgstr "アイキャッチ画像を適用しない"
+
+#~ msgid "If an eye-catching image is registered, apply the eye-catching image"
+#~ msgstr "アイキャッチ画像が登録されていたら適用する"
+
+#~ msgid "Lightning G3 Pro Unit"
+#~ msgstr "Lightning G3 Pro Unit"
+
+#~ msgid "https://www.vektor-inc.co.jp/"
+#~ msgstr "https://www.vektor-inc.co.jp/"
+
+#~ msgid "Vektor,Inc."
+#~ msgstr "株式会社ベクトル"
