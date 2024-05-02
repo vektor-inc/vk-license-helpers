@@ -211,7 +211,7 @@ class VkLicenseHelpers {
 
 			// 更新の再取得を表示するかどうか
 			if ( $args['display_reacquisition'] ) {
-				$notice .= '<p>' . __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'lightning-g3-pro-unit' );
+				$notice .= '<p>' . __( 'If this display does not disappear even after entering a valid license key, re-acquire the update.', 'vk-license-helpers' );
 				$notice .= '<span class="nowrap">[ <a href="' . admin_url( '/' ) . 'update-core.php?force-check=1' . '">' . __( 'Re-acquisition of updates', 'vk-license-helpers' ) . '</a> ]</span>';
 				$notice .= '</p>';
 			}
